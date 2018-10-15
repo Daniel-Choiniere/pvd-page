@@ -5,19 +5,14 @@
         max-width: 1344px;
         margin-left: auto;
         margin-right: auto;
-        padding-left: 10px;
+        padding-left: 50px;
         padding-right: 10px;
     }
 
     .sidenav-wrap {
-        width: 25%;
-        margin: 0;
-        margin-right: 4%;
-        float: left;
-    }
-    
-    .city-services {
         width: 30%;
+        float: left;
+        padding: 35px;
     }
 
     .nav-list-bgcolor {
@@ -25,9 +20,10 @@
     }
 
     .orange-btn {
+        height: 100px;
         width: 100%;
-        color: #e56f00;
-        cursor: pointer;
+        color: white;
+        background-color: #e56f00;
         display: inline-block;
         font-family: sans-serif;
         font-size: 16px;
@@ -38,27 +34,15 @@
         white-space: nowrap;
     }
     
-    .threeOneOne-img {
-        width:55%;
-        margin-right:2%;
-        float: left;
-    }
-    
-    .google_map iframe {
-       width:100%;
-    }
-    
-    .paragraph {
-        width:42%;
-        float: left;
-    }
-    .clearfix{
-        clear:both
+    .list-group-item {
+        font-size: 13px
     }
     
 </style>
 
 <html>
+
+
 
 <head>
     <title>City of Providence Home - City of Providence</title>
@@ -67,6 +51,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link href="http://bit.ly/pvdfonts" re="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -92,8 +77,10 @@
             <div class="col-sm">
                 <p style="text-align: center; margin: 0; display: inline-block; color: #3894ac; text-transform: uppercase;">mayor jorge o. elorza</p>
                 <button type="button" class="btn btn-default" aria-label="Left Align">
-                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                    </button>
+                </button>
+                <a class="fa fa-search" style="font-size:27px; color: black" href="#"></a>
+                <a class="fa fa-wheelchair-alt" style="font-size:27px; color: black" href="#"></a>
+              
             </div>
         </div>
 
@@ -111,13 +98,12 @@
     <img width="1450" height="350" src="http://www.providenceri.gov/wp-content/uploads/2016/09/PVD.jpg">
     </br>
     </br>
-    </br>
 
     <!-- END OF TOP NAV BANNER SECTION/  START OF SIDE NAV BAR SECTION WITH FOUR CARDS WITH INFO-->
 
 
 
-    <section class="outer-container">
+    <container class="outer-container">
 
         <nav class="sidenav-wrap">
             <p class="text-center" style="font-weight: 900">What Can We Help You With?</p>
@@ -126,26 +112,26 @@
 
             </br>
             </br>
-            <div class="card" style="background: #005d73">
-                <div class="card-header">
-                    Top Requests
+            <div class="card" style="background: #3894ac">
+                
+                    <h6 style="color: white; padding-left: 18px; padding-top: 20px; padding-bottom: 20px; font-family: sans-serif">TOP REQUESTS</h6>
                     <div class="bg-primary mb-3">
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item" "nav-list-bgcolor" style="background-color: #3894ac" ;><a style="color: white" href="#" class="card-link">Pay Taxes</a></li>
-                            <li class="list-group-item" style="background-color: #3894ac" ;><a style="color: white" href="#" class="card-link">Pay my Parking Ticket</a></li>
-                            <li class="list-group-item" style="background-color: #3894ac" ;><a style="color: white" href="#" class="card-link">Report a Problem</a></li>
-                            <li class="list-group-item" style="background-color: #3894ac" ;><a style="color: white" href="#" class="card-link">Job Opportunities</a></li>
-                            <li class="list-group-item" style="background-color: #3894ac" ;><a style="color: white" href="#" class="card-link">Inspections + Standards</a></li>
-                            <li class="list-group-item" style="background-color: #3894ac" ;><a style="color: white" href="#" class="card-link">Animal Adoption</a></li>
-                            <li class="list-group-item" style="background-color: #3894ac" ;><a style="color: white" href="#" class="card-link">Marriage, Birth, Death Certificates</a></li>
-                            <li class="list-group-item" style="background-color: #3894ac" ;><a style="color: white" href="#" class="card-link">How to Find RFP's + Submit a Bid</a></li>
-                            <li class="list-group-item" style="background-color: #3894ac" ;><a style="color: white" href="#" class="card-link">Providence Police</a></li>
-                            <li class="list-group-item" style="background-color: #3894ac" ;><a style="color: white" href="#" class="card-link">Museum of Natural History</a></li>
-                            <li class="list-group-item" style="background-color: #3894ac" ;><a style="color: white" href="#" class="card-link">Ricci Class Action Settlement</a></li>
-                            <li class="list-group-item" style="background-color: #3894ac" ;><a style="color: white" href="#" class="card-link">Property Revaluation Progress</a></li>
+                            <li class="list-group-item" style="background-color: #10475a" ;><a style="color: white" href="#" class="card-link">Pay Taxes</a></li>
+                            <li class="list-group-item" style="background-color: #10475a" ;><a style="color: white" href="#" class="card-link">Pay my Parking Ticket</a></li>
+                            <li class="list-group-item" style="background-color: #10475a" ;><a style="color: white" href="#" class="card-link">Report a Problem</a></li>
+                            <li class="list-group-item" style="background-color: #10475a" ;><a style="color: white" href="#" class="card-link">Job Opportunities</a></li>
+                            <li class="list-group-item" style="background-color: #10475a" ;><a style="color: white" href="#" class="card-link">Inspections + Standards</a></li>
+                            <li class="list-group-item" style="background-color: #10475a" ;><a style="color: white" href="#" class="card-link">Animal Adoption</a></li>
+                            <li class="list-group-item" style="background-color: #10475a" ;><a style="color: white" href="#" class="card-link">Marriage, Birth, Death Certificates</a></li>
+                            <li class="list-group-item" style="background-color: #10475a" ;><a style="color: white" href="#" class="card-link">How to Find RFP's + Submit a Bid</a></li>
+                            <li class="list-group-item" style="background-color: #10475a" ;><a style="color: white" href="#" class="card-link">Providence Police</a></li>
+                            <li class="list-group-item" style="background-color: #10475a" ;><a style="color: white" href="#" class="card-link">Museum of Natural History</a></li>
+                            <li class="list-group-item" style="background-color: #10475a" ;><a style="color: white" href="#" class="card-link">Ricci Class Action Settlement</a></li>
+                            <li class="list-group-item" style="background-color: #10475a" ;><a style="color: white" href="#" class="card-link">Property Revaluation Progress</a></li>
                         </ul>
                     </div>
-                </div>
+                
 
 
             </div>
@@ -165,67 +151,77 @@
                 <div class="card-deck">
                     <div class="card" style="max-width:500px;">
                         <div class="card-block text-left">
-                            <h7 class="card-title" style="color: #82b1ff">Mayor Elorza Names Jody A. Jencks as Director of PVD HealthWorks</h4>
-                                <p class="card-text" style="font-size: 14px; color: gray">Mayor Jorge O. Elorza today announced that Jody A. Jencks will join the City of Providence as the Director of PVD HealthWorks for the Office of Economic Opportunity where she will lead the development of specialized healthcare
-                                    and social assistance workforce partnerships to create diverse training pipelines, career pathways, and other workforce solutions for Providence residents interested in accessing careers in the healthcare and social
-                                    assistance industry.
-                                </p>
-                                <a href=# class="card-link">Wedneday October 10 2018</a>
+                            <h7 class="card-title" style="color: #82b1ff; font-size: 20px">Mayor Elorza Names Jody A. Jencks as Director of PVD HealthWorks</h7>
+                            <p class="card-text" style="font-size: 14px;"></br></br>Mayor Jorge O. Elorza today announced that Jody A. Jencks will join the City of Providence as the Director of PVD HealthWorks for the Office of Economic Opportunity where she will lead the development of specialized healthcare and social assistance workforce partnerships.
+                            </p>
+                            <a href=# class="card-link" style="font-size: 13px; color: black"></br></br>Wedneday October 10 2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Read More</a>
                         </div>
                     </div>
 
                     <div class="card" style="max-width:500px;">
                         <div class="card-block text-left">
-                            <h7 class="card-title" style="color: #82b1ff">PVDFest Returns to the Creative Capital for 2019</h4>
-                                <p class="card-text" style="font-size: 14px; color: gray">The City of Providence announced that PVDFest, the Citys signature arts festival, will return for a fifth year June 6-9, 2019. As it has in the past, PVDFest will transform downtown Providence into a global celebration
-                                    of art, music, food, performance and more..!</p>
-                                <a href="#" class="card-link">Tuesday October 9 2018            Read More</a>
+                            <h7 class="card-title" style="color: #82b1ff; font-size: 20px">PVDFest Returns to the Creative Capital for 2019</h7>
+                            <p class="card-text" style="font-size: 14px"></br></br>The City of Providence announced that PVDFest, the Citys signature arts festival, will return for a fifth year June 6-9, 2019. As it has in the past, PVDFest will transform downtown Providence into a global celebration of art, music, food, performance and more..!</p>
+                            <a href="#" class="card-link" style="font-size: 13px; color: black"></br></br></br></br>Tuesday October 9 2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
 
+            </br>
 
             <div class="card-deck-wrapper">
                 <div class="card-deck">
                     <div class="card" style="max-width:500px;">
                         <div class="card-block text-left">
-                            <h7 class="card-title" style="color: #82b1ff">City of Providence Searching for a Perfect Tree</h4>
-                                <p class="card-text" style="font-size: 14px; color: gray">The City of Providence will host the annual holiday tree lighting ceremony on Friday, November 30 at Providence City Hall and Saturday, December 1 at the Alex and Ani City Center Skating Rink in Kennedy Plaza. To complete
-                                    preparations, the City needs a 35-foot to 45-foot spruce or fir tree to grace the steps at City Hall. Residents are asked to nominate their own trees for consideration and the City will remove them from their property.
-                                    Again this year, Stanley Tree Service will be generously donating crane service for the tree.</p>
-                                <a href="#" class="card-link">Monday October 8 2018</a>
+                            <h7 class="card-title" style="color: #82b1ff; font-size: 20px">City of Providence Searching for a Perfect Tree</h7>
+                            <p class="card-text" style="font-size: 14px"></br></br>The City of Providence will host the annual holiday tree lighting ceremony on Friday, November 30 at Providence City Hall and Saturday, December 1 at the Alex and Ani City Center Skating Rink in Kennedy Plaza. To complete preparations, the City needs a 35-foot to 45-foot spruce or fir tree to grace the steps at City Hall.</p>
+                            <a href="#" class="card-link" style="font-size: 13px; color: black"></br></br>Monday October 8 2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Read More</a>
                         </div>
                     </div>
 
                     <div class="card" style="max-width:500px;">
                         <div class="card-block text-left">
-                            <h7 class="card-title" style="color: #82b1ff">City of Providence Searching for a Perfect Tree</h4>
-                                <p class="card-text" style="font-size: 14px; color: gray">The City of Providence will host the annual holiday tree lighting ceremony on Friday, November 30 at Providence City Hall and Saturday, December 1 at the Alex and Ani City Center Skating Rink in Kennedy Plaza. To complete
-                                    preparations, the City needs a 35-foot to 45-foot spruce or fir tree to grace the steps at City Hall. Residents are asked to nominate their own trees for consideration and the City will remove them from their property.
-                                    Again this year, Stanley Tree Service will be generously donating crane service for the tree.</p>
-                                <a href="#" class="card-link">Sunday October 7 2018</a>
+                            <h7 class="card-title" style="color: #82b1ff; font-size: 20px">City of Providence Searching for a Perfect Tree</h7>
+                            <p class="card-text" style="font-size: 14px"></br></br>The City of Providence will host the annual holiday tree lighting ceremony on Friday, November 30 at Providence City Hall and Saturday, December 1 at the Alex and Ani City Center Skating Rink in Kennedy Plaza. To complete preparations, the City needs a 35-foot to 45-foot spruce or fir tree to grace the steps at City Hall.</p>
+                            <a href="#" class="card-link" style="font-size: 13px; color: black"></br></br>Sunday October 7 2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="city-services">
-        <div class="threeOneOne-img">
-            <img width="1450" height="350" src="http://www.providenceri.gov/wp-content/uploads/2016/09/group-3.svg">
-        </div>
-        
-        <div class="mayor-request">
-          <p></p>
-        </div>
-        
         <div class="clearfix"></div>
-    </section>
-        
+    </container>
+    </br>
+    </br>
 
 
+    <div class="card-group" style="padding-right: 50px; padding-left: 50px">
+        <div class="card">
+            <img src="data:image/png;base64,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">
+        </div>
+
+        <div class="card" style="background-color: gray">
+            <h2 class "card-title" style="text-center">The Mayor's Center for City services</h2>
+            <p class="card-text">Request Trash Pickup, Report Potholes, Graffiti and more.</p>
+            <button type="button" class="btn btn-outline-info">Submit Your 311PVD Request</button>
+        </div>
+    </div>
+
+    </br>
+    </br>
+
+
+    <div class="card-group">
+        <div class="card">
+            <img width="550" height="700" src="http://www.providenceri.gov/wp-content/uploads/2017/06/CiyHall.jpg">
+        </div>
+
+        <div class="card">
+
+        </div>
+    </div>
+    </div>
 
 </body>
 
