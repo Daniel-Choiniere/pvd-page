@@ -41,6 +41,24 @@
     .threeOneOne {
         
     }
+    
+    .nav-line {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .dropdown-list {
+        color: black;
+    }
+    
+    .stay-color {
+        color: black; text-decoration: none;
+    }
 </style>
 
 <html>
@@ -61,7 +79,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <div class="dropdown">
-                <button class="btn btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 190px; height: 30px;">
                         Language
                     </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -78,29 +96,58 @@
                 <img style="margin: 0; display: block; margin-left: auto; margin-right: auto;" src="http://www.providenceri.gov/wp-content/uploads/2016/12/fill-1.svg">
             </div>
             <div class="col-sm">
-                <p style="text-align: center; margin: 0; display: inline-block; color: #3894ac; text-transform: uppercase;">mayor jorge o. elorza</p>
+                <p style="text-align: center; margin: 0; display: inline-block; color: #10475a; text-transform: uppercase;">mayor jorge o. elorza</p>
                 <button type="button" class="btn btn-default" aria-label="Left Align">
                 </button>
                 <a class="fa fa-search" style="font-size:27px; color: black" href="#"></a>
                 <a class="fa fa-wheelchair-alt" style="font-size:27px; color: black" href="#"></a>
-              
             </div>
         </div>
-
-
+        
     </nav>
+    
+    <hr>
+
     <nav class="nav nav-fill bg-light">
-        <a class="nav-item nav-link" href="#">CITY HALL</a>
-        <a class="nav-item nav-link" href="#">DOING BUSINESS</a>
-        <a class="nav-item nav-link" href="#">EVENTS</a>
-        <a class="nav-item nav-link" href="#">NEWS</a>
-        <a class="nav-item nav-link" href="#">PVD 311</a>
-        <a class="nav-item nav-link" href="#">EXPLORE</a>
+            <li class="nav-item nav-link dropdown">
+                <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="stay-color">CITY HALL<span class="caret"></span></a>
+                <ul class="dropdown-menu text-center">
+                    <li><a href="#">I Want to&hellip;</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li><a href="#">Mayor&rsquo;s Office</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li><a href="#">Departments</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li><a href="#">City Council</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li><a href="#">Code of Ordinances</a></li>
+                </ul>
+            </li>
+            <li class="nav-item nav-link dropdown stay-color">
+                <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="stay-color">DOING BUSINESS<span class="caret"></span></a>
+                <ul class="dropdown-menu text-center">
+                    <li><a href="#">Starting a Business</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li><a href="#">Construction</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li><a href="#">Running a Business</a></li>
+                    <div class="dropdown-divider"></div>
+                    <li><a href="#">Ethics</a></li>
+                </ul>
+            </li>
+        <a class="nav-item nav-link stay-color" style="color: black; text-decoration: none;" href="#">EVENTS</a>
+        <a class="nav-item nav-link stay-color" href="#">NEWS</a>
+        <a class="nav-item nav-link stay-color" href="#">PVD 311</a>
+        <a class="nav-item nav-link stay-color" href="#">EXPLORE</a>
     </nav>
-
-    <img width="1450" height="350" src="http://www.providenceri.gov/wp-content/uploads/2016/09/PVD.jpg">
+    
+    </br>
+    
+    <img width="1450" height="500" src="http://www.providenceri.gov/wp-content/uploads/2016/09/PVD.jpg">
     </br>
     </br>
+    
+   
 
     <!-- END OF TOP NAV BANNER SECTION/  START OF SIDE NAV BAR SECTION WITH FOUR CARDS WITH INFO-->
 
@@ -152,20 +199,22 @@
 
             <div class="card-deck-wrapper">
                 <div class="card-deck">
-                    <div class="card" style="max-width:500px;">
+                    <div class="card" style="max-width:500px; padding: 25px;">
                         <div class="card-block text-left">
                             <h7 class="card-title" style="color: #82b1ff; font-size: 20px">Mayor Elorza Names Jody A. Jencks as Director of PVD HealthWorks</h7>
                             <p class="card-text" style="font-size: 14px;"></br></br>Mayor Jorge O. Elorza today announced that Jody A. Jencks will join the City of Providence as the Director of PVD HealthWorks for the Office of Economic Opportunity where she will lead the development of specialized healthcare and social assistance workforce partnerships.
                             </p>
-                            <a href=# class="card-link" style="font-size: 13px; color: black"></br></br>Wedneday October 10 2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Read More</a>
+                            </br></br>
+                            <p style="font-size: 13px; color: black">Wedneday October 10 2018<span style="float:right;"><a href="">Read More</span></a></p>
                         </div>
                     </div>
 
-                    <div class="card" style="max-width:500px;">
+                    <div class="card" style="max-width:500px; padding: 25px;">
                         <div class="card-block text-left">
                             <h7 class="card-title" style="color: #82b1ff; font-size: 20px">PVDFest Returns to the Creative Capital for 2019</h7>
                             <p class="card-text" style="font-size: 14px"></br></br>The City of Providence announced that PVDFest, the Citys signature arts festival, will return for a fifth year June 6-9, 2019. As it has in the past, PVDFest will transform downtown Providence into a global celebration of art, music, food, performance and more..!</p>
-                            <a href="#" class="card-link" style="font-size: 13px; color: black"></br></br></br></br>Tuesday October 9 2018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Read More</a>
+                            </br></br>
+                            <p style="font-size: 13px; color: black; text-align:left;">Tuesday October 9 2018<span style="float:right;"><a href="">Read More</span></a></p>
                         </div>
                     </div>
                 </div>
@@ -175,19 +224,21 @@
 
             <div class="card-deck-wrapper">
                 <div class="card-deck">
-                    <div class="card" style="max-width:500px;">
+                    <div class="card" style="max-width:500px; padding: 25px;">
                         <div class="card-block text-left">
-                            <h7 class="card-title" style="color: #82b1ff; font-size: 20px">City of Providence Searching for a Perfect Tree</h7>
-                            <p class="card-text" style="font-size: 14px"></br></br>The City of Providence will host the annual holiday tree lighting ceremony on Friday, November 30 at Providence City Hall and Saturday, December 1 at the Alex and Ani City Center Skating Rink in Kennedy Plaza. To complete preparations, the City needs a 35-foot to 45-foot spruce or fir tree to grace the steps at City Hall.</p>
-                            <a href="#" class="card-link" style="font-size: 13px; color: black"></br></br>Monday October 8 2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Read More</a>
+                            <h7 class="card-title" style="color: #82b1ff; font-size: 20px">Providences Municipal ID Program, IDPVD, Issues 1,000th Card</h7>
+                            <p class="card-text" style="font-size: 14px"></br></br>Mayor Jorge O. Elorza today announced that the City of Providence has issued 1,000 IDPVD municipal identification cards.</p>
+                            </br></br></br>
+                            <p style="font-size: 13px; color: black">Monday October 8 2018<span style="float:right;"><a href="">Read More</span></a></p>
                         </div>
                     </div>
 
-                    <div class="card" style="max-width:500px;">
+                    <div class="card" style="max-width:500px; padding: 25px;">
                         <div class="card-block text-left">
                             <h7 class="card-title" style="color: #82b1ff; font-size: 20px">City of Providence Searching for a Perfect Tree</h7>
                             <p class="card-text" style="font-size: 14px"></br></br>The City of Providence will host the annual holiday tree lighting ceremony on Friday, November 30 at Providence City Hall and Saturday, December 1 at the Alex and Ani City Center Skating Rink in Kennedy Plaza. To complete preparations, the City needs a 35-foot to 45-foot spruce or fir tree to grace the steps at City Hall.</p>
-                            <a href="#" class="card-link" style="font-size: 13px; color: black"></br></br>Sunday October 7 2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Read More</a>
+                            </br></br>
+                            <p style="font-size: 13px; color: black">Sunday October 7 2018<span style="float:right;"><a href="">Read More</span></a></p>
                         </div>
                     </div>
                 </div>
