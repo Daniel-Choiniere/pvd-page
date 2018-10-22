@@ -4,9 +4,9 @@
 
 <html>
 
-                                    <!--TOP NAV BARS SECTION-->
 
 <head>
+    <link rel = "stylesheet" type="text/css" href="myStyle.css">
     <title>City of Providence Home - City of Providence</title>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -18,113 +18,19 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
-<style>
-    .outer-container {
-        max-width: 1344px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 50px;
-        padding-right: 10px;
-    }
-
-    .sidenav-wrap {
-        width: 30%;
-        float: left;
-        padding: 35px;
-    }
-
-    .nav-list-bgcolor {
-        background-color: #3894ac;
-    }
-
-    .orange-btn {
-        height: 100px;
-        width: 100%;
-        color: white;
-        background-color: #e56f00;
-        display: inline-block;
-        font-family: sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1;
-        padding: 16px;
-        vertical-align: middle;
-        white-space: nowrap;
-    }
-
-    .list-group-item {
-        font-size: 13px
-    }
-
-    .threeOneOne {}
-
-    .nav-line {
-        width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .text-center {
-        text-align: center;
-    }
-
-    .dropdown-list {
-        color: black;
-    }
-
-    .stay-color {
-        color: black;
-        text-decoration: none;
-    }
-
-    .current-news {
-        max-width: 500px;
-        padding: 25px;
-    }
-
-    .card-details {
-        color: #e56f00;
-        font-weight: bold;
-        font-size: 12px;
-        text-decoration: none;
-        padding-left: 40px;
-    }
-
-    .open-prov-card-title {
-        font-family: Montserrat, sans-serif;
-        letter-spacing: 1px;
-        color: #10475a;
-    }
-
-    .open-prov-card-body {
-        font-family: Source Sans Pro, sans-serif;
-        margin-bottom: 10px;
-        font-weight: lighter;
-        padding-left: 40px;
-        color: #6a6a6a;
-    }
-    
-    .small-img {
-        float: left; 
-        margin-right: 20px;
-    }
-    
-    .open-providence-card {
-        border: none; 
-        background-color: #f7f7f7;
-    }
-</style>
 
 
-
+                                    <!--TOP NAV BARS SECTION-->
+                                    <!--FIRST TOP NAV BAR-->
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
             <div class="dropdown">
-                <button class="btn btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 190px; height: 30px;">
+                <button class="btn btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 150px; height: 30px; padding-right: 50px">
                         Language
                     </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -135,23 +41,27 @@
             </div>
 
             <div class="col-sm">
-                <p style="text-align: center; margin: 0; color: #e56f00" class="stay-orange">CITY OF PROVIDENCE</p>
+                <p style="text-align: center; margin: 0; color: #e56f00; font-family: Montserrat,sans-serif; letter-spacing: 2px" class="stay-orange">CITY OF PROVIDENCE</p>
             </div>
             <div class="col-sm">
                 <img style="margin: 0; display: block; margin-left: auto; margin-right: auto;" src="http://www.providenceri.gov/wp-content/uploads/2016/12/fill-1.svg">
             </div>
             <div class="col-sm">
-                <p style="text-align: center; margin: 0; display: inline-block; color: #10475a; text-transform: uppercase;">mayor jorge o. elorza</p>
-                <button type="button" class="btn btn-default" aria-label="Left Align">
-                </button>
-                <a class="fa fa-search" style="font-size:25px; color: black" href="#"></a>
-                <!--<a class="fa fa-wheelchair-alt" style="font-size:25px; color: black" href="#"></a>-->
+            <p style="text-align: center; margin: 0; display: inline-block; color: #10475a; text-transform: uppercase; font-family: Montserrat,sans-serif; letter-spacing: 2px">mayor jorge o. elorza</p>
+            
+                                <!--HANDICAP AND SEARCH LINKS-->
+                                
+            <!--<span><a class="fa fa-search" style="font-size:25px; color: black; float: right; font-weight: 200" href="#"></a></span>-->
+            <!--<span><a class="fa fa-wheelchair-alt" style="font-size:25px; color: black; float: right" href="#"></a></span>-->
+            
             </div>
         </div>
 
     </nav>
 
-    <hr>
+    <hr style="height:2px;border:none;color:#333;background-color:#333;">
+
+                                <!--START OF LOWER TOP N-->
 
     <nav class="nav nav-fill bg-light">
         <li class="nav-item nav-link dropdown">
@@ -429,12 +339,55 @@
             </div>
         </div>
     </section>
+    </br>
+    </br>
+
+                                        <!--FOOTER SECTION W/ EAMIL AND CONTACT INFORMATION-->
+
+    <footer>
+        <div class="card-group">
+                    <div class="card">
+                        <div class="card-body" style="text-align: center">
+                            <h5 class="card-title open-prov-card-title">ACCESS MAPS</h5>
+                            <form>
+                                  <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                  </div>
+                                  <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                  </div>
+                                  <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            <p class="card-text"><a class="card-details" href="">DETAILS&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-arrow-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body" style="text-align: center">
+                            <h5 class="card-title open-prov-card-title">PROVIDENCE CAPITAL IMPROVEMENT PLAN</h5>
+                            <p class="card-text open-prov-card-body">Look at the five-year program of planned improvements to Providence’s public infrastructure.</p>
+                            <p class="card-text"><a class="card-details" href="">DETAILS&nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-arrow-right"></i></a></p>
+                        </div>
+                    </div>
+                </div>
+
+    </footer>
 
 
 
+
+
+    
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

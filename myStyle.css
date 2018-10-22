@@ -1,0 +1,94 @@
+    .outer-container {
+        max-width: 1344px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 50px;
+        padding-right: 10px;
+    }
+
+    .sidenav-wrap {
+        width: 30%;
+        float: left;
+        padding: 35px;
+    }
+
+    .nav-list-bgcolor {
+        background-color: #3894ac;
+    }
+
+    .orange-btn {
+        height: 100px;
+        width: 100%;
+        color: white;
+        background-color: #e56f00;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1;
+        padding: 16px;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+
+    .list-group-item {
+        font-size: 13px
+    }
+
+    .threeOneOne {}
+
+    .nav-line {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .dropdown-list {
+        color: black;
+    }
+
+    .stay-color {
+        color: black;
+        text-decoration: none;
+    }
+
+    .current-news {
+        max-width: 500px;
+        padding: 25px;
+    }
+
+    .card-details {
+        color: #e56f00;
+        font-weight: bold;
+        font-size: 12px;
+        text-decoration: none;
+        padding-left: 40px;
+    }
+
+    .open-prov-card-title {
+        font-family: Montserrat, sans-serif;
+        letter-spacing: 1px;
+        color: #10475a;
+    }
+
+    .open-prov-card-body {
+        font-family: Source Sans Pro, sans-serif;
+        margin-bottom: 10px;
+        font-weight: lighter;
+        padding-left: 40px;
+        color: #6a6a6a;
+    }
+    
+    .small-img {
+        float: left; 
+        margin-right: 20px;
+    }
+    
+    .open-providence-card {
+        border: none; 
+        background-color: #f7f7f7;
+    }
