@@ -22,9 +22,9 @@
         color: white;
         background-color: #e56f00;
         display: inline-block;
-        font-family: sans-serif;
-        font-size: 16px;
-        font-weight: 400;
+        font-family: Source Sans Pro,sans-serif;
+        font-size: 22px;
+        font-weight: lighter;
         line-height: 1;
         padding: 16px;
         vertical-align: middle;
@@ -34,8 +34,6 @@
     .list-group-item {
         font-size: 13px
     }
-
-    .threeOneOne {}
 
     .nav-line {
         width: 60%;
@@ -56,9 +54,36 @@
         text-decoration: none;
     }
 
+    .request-title {
+        font-weight: bold; 
+        color: #10475a; 
+        font-family: Montserrat,sans-serif; 
+        letter-spacing:1.5px;
+    }
+    
+    .top-requests-title {
+         color: white; 
+         padding-left: 18px; 
+         padding-top: 20px; 
+         padding-bottom: 20px; 
+         font-family: Montserrat,sans-serif; 
+         font-weight: bolder;
+    }
+    
     .current-news {
         max-width: 500px;
         padding: 25px;
+    }
+
+    .read-more{
+         color: #e56f00;
+         font-family: Source Sans Pro,sans-serif; 
+         font-weight: 700;
+    }
+    
+    .card-title-style {
+        color: #3894ac; 
+        font-size: 20px;
     }
 
     .card-details {
