@@ -7,7 +7,7 @@
     }
 
     .sidenav-wrap {
-        width: 30%;
+        width: 29%;
         float: left;
         padding: 35px;
     }
@@ -73,17 +73,20 @@
     .current-news {
         max-width: 500px;
         padding: 25px;
+        cursor: pointer;
     }
 
     .read-more{
          color: #e56f00;
          font-family: Source Sans Pro,sans-serif; 
          font-weight: 700;
+         letter-spacing: 2px;
     }
     
     .card-title-style {
         color: #3894ac; 
         font-size: 20px;
+        font-family: Montserrat,sans-serif;
     }
 
     .card-details {
@@ -157,3 +160,26 @@
         vertical-align: middle;
         white-space: nowrap;
     }
+    
+    .city-hall-title {
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 1.7px;
+        text-transform: uppercase;
+        font-family: Montserrat,sans-serif;
+        color: #10475a;
+        font-weight: 700;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    
+    .city-hall-info {
+        color: #6a6a6a;
+        font-family: Source Sans Pro,sans-serif;
+        font-weight: 300;
+        margin-bottom: 0;
+        text-align: left;
+        font-size: 22px;
+    }
+    
+    
