@@ -182,4 +182,14 @@
         font-size: 22px;
     }
     
+    .footer-nav {
+         color: white; 
+         font-family: Source Sans Pro,sans-serif; 
+         padding-left: 395px
+    }
     
+    .footer-nav-bro {
+         color: white; 
+         font-family: Source Sans Pro,sans-serif; 
+         margin-left: -27px;
+    }
