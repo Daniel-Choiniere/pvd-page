@@ -6,14 +6,23 @@
         padding-right: 10px;
     }
 
+    .navbar-text {
+         color: #6a6a6a; 
+         font-family: Montserrat,sans-serif;
+    }
+    
     .sidenav-wrap {
         width: 29%;
         float: left;
-        padding: 35px;
+        padding: 45px;
     }
 
     .nav-list-bgcolor {
         background-color: #3894ac;
+    }
+    
+    .request-link {
+        color: #cecece;
     }
 
     .orange-btn {
@@ -32,7 +41,9 @@
     }
 
     .list-group-item {
-        font-size: 13px
+        font-size: .875rem;
+        line-height: 1.3125rem;
+        letter-spacing: 0;
     }
 
     .nav-line {
@@ -121,19 +132,25 @@
         background-color: #f7f7f7;
     }
     
+    #mayors-center {
+         background-color: #f7f7f7; 
+         display: block; 
+         margin-left: auto; 
+         margin-left: -15px; 
+         width: 60%;
+    }
+    
     .mayor-services {
         color: #10475a;
         font-family: Montserrat,sans-serif;
         font-weight: 400;
         margin: 38px 0 8px;
-        text-align: center;
     }
     
     .trash-potholes {
         font-family: Source Sans Pro,sans-serif;
         margin-bottom: 24px;
         color: #6a6a6a;
-        text-align: center;
     }
     
     .three-eleven-submit {
@@ -192,4 +209,11 @@
          color: white; 
          font-family: Source Sans Pro,sans-serif; 
          margin-left: -27px;
+    }
+    
+    .social-media-title {
+        font-family: Source Sans Pro,sans-serif;
+        font-weight: 600;
+        color: #3894ac;
+        padding-left: 100px;
     }
