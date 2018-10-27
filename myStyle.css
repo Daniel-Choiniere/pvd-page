@@ -11,6 +11,32 @@
          font-family: Montserrat,sans-serif;
     }
     
+    .nav-prov {
+        text-align: center; 
+        margin: 0; 
+        color: #e56f00; 
+        font-family: Montserrat,sans-serif; 
+        letter-spacing: 2px;
+    }
+    
+    .nav-big-p {
+         margin: 0; 
+         display: block; 
+         margin-left: auto; 
+         margin-right: auto; 
+         padding-right: 125px;
+    }
+    
+    .nav-mayor {
+        text-align: center; 
+        margin: 0; 
+        display: inline-block; 
+        color: #10475a; 
+        text-transform: uppercase; 
+        font-family: Montserrat,sans-serif; 
+        letter-spacing: 2px;
+    }
+    
     .sidenav-wrap {
         width: 29%;
         float: left;
@@ -216,4 +242,10 @@
         font-weight: 600;
         color: #3894ac;
         padding-left: 100px;
+    }
+    
+    .email-title {
+        font-family: Source Sans Pro,sans-serif;
+        color: #10475a;
+        font-size: 12px;
     }
